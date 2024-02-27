@@ -1,0 +1,99 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 100%;
+  background-color: #f5f5f5;
+}
+
+a {
+  color: #007BFF;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+a:hover {
+  color: #0056b3;
+}
+
+button {
+  display: inline-block;
+  margin: 10px;
+  cursor: pointer;
+  font-size: 100%;
+  background-color: #007BFF;
+  border-radius: 5px;
+  padding: 5px 15px;
+  color: white;
+  border: 0;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.choices button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+input[type="text"] {
+  font-size: 100%;
+  width: 50%;
+}
+
+ol {
+  padding-left: 20px;
+  max-height: 400px;
+  overflow: auto;
+}
+
+li {
+  padding: 10px;
+  list-style: decimal inside none;
+  background-color: #e9ecef;
+  margin-bottom: 10px;
+}
+
+li:nth-child(odd) {
+  background-color: #f8f9fa;
+}
+
+.wrapper {
+  margin: 50px auto 0 auto;
+  max-width: 800px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+.hide {
+  display: none;
+}
+
+.start {
+  text-align: center;
+}
+
+.scores {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.feedback {
+  font-style: italic;
+  font-size: 100%;
+  margin-top: 20px;
+  padding-top: 10px;
+  color: gray;
+  border-top: 1px solid #ccc;
+}
+
+.timer {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
